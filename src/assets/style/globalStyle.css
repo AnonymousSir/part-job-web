@@ -1,0 +1,35 @@
+a {
+  text-decoration: none !important;
+}
+.container {
+  width: 1200px;
+  min-width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.separate {
+  margin: 0 5px;
+}
+.not_user_select {
+  user-select: none;
+}
+
+/* 修改element plus 滚动条样式 */
+/* 滚动条主体 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 8px;
+}
+/* 滚动条滑动部分 */
+::-webkit-scrollbar-thumb {
+  border-radius:2px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #ccc;
+}
+/* 滚动条背景 */
+::-webkit-scrollbar-track{
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 1);
+}
